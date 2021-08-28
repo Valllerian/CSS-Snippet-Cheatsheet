@@ -1,71 +1,54 @@
-CSS Snippet Cheatsheet
- 
-CSS Snippet Cheatsheet
- 
-Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to
-      this page! Select any snippet below and it'll automatically select all of the code for you to copy.
- 
-Flexbox Row
- 
-Use these three properties to create a Flexbox row layout.
- 
-Use these three properties to create a Flexbox row layout.
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+:root {
+    --header-color: rgb(168, 42, 147);
+    --header-size: 35px;
+    --white: white;
+    --border-radius: 10px;
+
+}   
+
+html {
+    background-color: rgb(27, 35, 58);
 }
- 
-Flexbox Column
- 
-Use this to create a Flexbox column layout.
- 
-.column {
-  display: flex;
-  flex-direction: column
+
+header h1 {
+    color: var(--header-color);
+    text-align: center;
 }
- 
-CSS Grid Layout
- 
-Build a 12-column layout using CSS Grid
- 
-.grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(12, 1fr);
+
+h2 {
+    color: var(--header-color);
 }
- 
-Linear Gradients
- 
-This will create a background linear gradient from top to bottom.
- 
-.linear-gradient-background {
-  background-image: linear-gradient(
-    rgba(232, 102, 236, 0.3) 0%,
-    rgba(232, 102, 236, 0.6) 100%
-  );
+
+header p {
+    color: var(--white);
+    text-align: center;
 }
- 
-Box Transition Glow
- 
-Use transition and box shadows to glow on hover.
-.code-card .card-header {
-  border-radius: 8px;
-  transition: all 0.5s ease-in-out;
+
+.box {
+    display: block;
+    width: 33%;
+    padding: 0px;
+    margin: 10px;
+    border: dashed white; 
 }
- 
-.code-card:hover,
-.code-card:hover .card-header {
-  box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+
+section p {
+    color: var(--header-color);
 }
- 
-Overlay Card with Title
- 
-Use position properties and negative margins to raise elements higher than their natural starting point.
- 
-.card-header {
-  position: relative;
-  margin-top: -20px;
+
+code {
+    color: var(--white);
 }
- 
-Made with and CSS
+
+.code-card {
+    border-radius: var(--border-radius);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+footer {
+    color: var(--header-color);
+    text-align: center;
+}

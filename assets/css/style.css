@@ -2,6 +2,7 @@
     --header-color: rgb(168, 42, 147);
     --header-size: 35px;
     --white: white;
+    --border-radius: 10px;
 
 }   
 
@@ -37,6 +38,14 @@ section p {
 
 code {
     color: var(--white);
+}
+
+.code-card {
+    border-radius: var(--border-radius);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 footer {

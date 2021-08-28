@@ -3,6 +3,7 @@
     --header-size: 35px;
     --white: white;
     --border-radius: 10px;
+    --purple: purple;
 
 }   
 
@@ -46,6 +47,18 @@ code {
     display: flex;
     flex-direction: column;
     padding: 10px;
+}
+
+.sample-code {
+    user-select: all;
+    border-radius: var(--border-radius);
+    flex: 1;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--purple);
+    padding: 10px;
+    display: flex;
+    margin: 7px auto;
 }
 
 footer {

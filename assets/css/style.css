@@ -11,6 +11,7 @@ html {
 
 header h1 {
     color: var(--header-color);
+    text-align: center;
 }
 
 h2 {
@@ -19,6 +20,15 @@ h2 {
 
 header p {
     color: var(--white);
+    text-align: center;
+}
+
+.box {
+    display: block;
+    width: 33%;
+    padding: 0px;
+    margin: 10px;
+    border: dashed white; 
 }
 
 section p {
@@ -31,4 +41,5 @@ code {
 
 footer {
     color: var(--header-color);
+    text-align: center;
 }

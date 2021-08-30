@@ -1,1 +1,1 @@
-# MiniProject02
+CSS Snippet Cheatsheet
